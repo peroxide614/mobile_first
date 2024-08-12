@@ -1,0 +1,21 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 2021, // Allows for the parsing of modern ECMAScript features
+        "sourceType": "module", // Allows for the use of imports
+        "ecmaFeatures": {
+            "jsx": true // Allows for the parsing of JSX
+        }
+    },
+    "env": {
+        "browser": true, // Specifies browser global variables
+        "es2021": true // Specifies ECMAScript 2021 global variables
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended"
+    ],
+    "rules": {
+        // Add any custom rules here
+    }
+}
