@@ -12,15 +12,22 @@ function App() {
         </img>
       </div>
       <div className="hotel">
-        <div className="hotel-info">
-          <div className="hotel-name">Raddison Hotel</div>
-          <div className="hotel-adress">Thane West</div>
-          <div className="hotel-rating-wrapper">
-            <img src={star} alt="Star" className="star-icon" />
-            <div className="hotel-rating">4.3/5</div>
+        <div className="hotel-row-wrapper">
+          <div className="hotel-info">
+            <div className="hotel-name">Raddison Hotel</div>
+            <div className="hotel-adress">Thane West</div>
+            <div className="hotel-rating-wrapper">
+              <img src={star} alt="Star" className="star-icon" />
+              <div className="hotel-rating">4.3/5</div>
+            </div>
+          </div>
+          <div className="hotel-price">
+            <div className="hotel-offer">Best Offer</div>
+            <div className="hotel-current-price">$3,493</div>
+            <div className="hotel-previous-price">$ 4,433</div>
+            <div className="hotel-price-fees">+ $ 594 taxes and fee</div>
           </div>
         </div>
-        <div className="hotel-price"></div>
         <div className="hotel-options"></div>
       </div>
     </div>

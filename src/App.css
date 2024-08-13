@@ -1,6 +1,8 @@
-@media only screen and (max-width: 600px) {
-  .hotel {
-    padding: 10px;
+.hotel {
+  padding: 10px;
+
+  .hotel-row-wrapper {
+    display: flex;
 
     .hotel-info {
       .hotel-name {
@@ -36,6 +38,37 @@
           align-items: center;
           justify-content: center;
         }
+      }
+    }
+
+    .hotel-price {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
+      .hotel-offer {
+        font-size: 12px;
+        color: #1e91b6;
+        font-weight: 500;
+      }
+
+      .hotel-current-price {
+        color: #1e91b6;
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      .hotel-previous-price {
+        font-size: 12px;
+        font-weight: 500;
+        text-decoration: line-through;
+        color: #5e5e5e;
+      }
+
+      .hotel-price-fees {
+        /* font-size: 10px; <---- isn't working properly, to fix later*/
+        font-weight: 500;
+        color: #5e5e5e;
       }
     }
   }
