@@ -2,14 +2,16 @@ import React from 'react';
 import './App.css';
 import apartment from './image/apart_img.png';
 import star from './image/star.png';
+import calendar from './image/calendar_icon.png';
 
 function App() {
   return (
     <div className="full-page">
-      <div className="hotel-img">
-        <img src={apartment}>
-          {/* <div className="int-ext"> Interior | Exterior</div> */}
-        </img>
+      <div className="hotel-img-wrapper">
+        <div>
+          <img src={apartment} className="hotel-img"></img>
+        </div>
+        <div className="int-ext"> Interior | Exterior</div>
       </div>
       <div className="hotel">
         <div className="hotel-row-wrapper">
@@ -28,7 +30,16 @@ function App() {
             <div className="hotel-price-fees">+ $ 594 taxes and fee</div>
           </div>
         </div>
-        <div className="hotel-options"></div>
+        <div className="hotel-options">
+          <div className="block-w-dates">
+            <img src={calendar} className="calendar-logo"></img>
+            <div className="wrapper-of-text">
+              <div className="text-inside-box">Check In & Check Out</div>
+              <div className="text-inside-box">20 Aug, Sat - 21 Aug, Sun</div>
+            </div>
+          </div>
+          <div className="block-w-dates"></div>
+        </div>
       </div>
     </div>
   );
