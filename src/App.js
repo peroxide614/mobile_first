@@ -11,7 +11,7 @@ function App() {
         <div>
           <img src={apartment} className="hotel-img"></img>
         </div>
-        <div className="int-ext"> Interior | Exterior</div>
+        <div className="int-ext">Interior | Exterior</div>
       </div>
       <div className="hotel">
         <div className="hotel-row-wrapper">
