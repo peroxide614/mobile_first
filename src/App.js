@@ -3,6 +3,7 @@ import './App.css';
 import apartment from './image/apart_img.png';
 import star from './image/star.png';
 import calendar from './image/calendar_icon.png';
+import usericon from './image/user_icon.png';
 
 function App() {
   return (
@@ -35,10 +36,18 @@ function App() {
             <img src={calendar} className="calendar-logo"></img>
             <div className="wrapper-of-text">
               <div className="text-inside-box">Check In & Check Out</div>
-              <div className="text-inside-box">20 Aug, Sat - 21 Aug, Sun</div>
+              <div className="text-inside-box-two">
+                20 Aug, Sat - 21 Aug, Sun
+              </div>
             </div>
           </div>
-          <div className="block-w-dates"></div>
+          <div className="block-w-dates">
+            <img src={usericon} className="usericon"></img>
+            <div className="wrapper-of-text">
+              <div className="text-inside-box">Guests and Rooms</div>
+              <div className="text-inside-box-two">1 Guest/ 1 Room</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
