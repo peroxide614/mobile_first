@@ -50,6 +50,24 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="hotel-description">
+        <div>
+          <div className="description-start">About the Hotel</div>
+          <div className="description-main">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            vulputate libero et velit interdum, ac aliquet odio mattis. Class
+            aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+            lobortis. Ut commodo efficitur neque. Ut diam quam, semper iaculis
+            condimentum ac, vestibulum eu nisl. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Nunc vulputate libero et velit
+            interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad
+            litora torquent per conubia nostra
+          </div>
+          <div className="description-end">Read more</div>
+        </div>
+        <div></div>
+      </div>
     </div>
   );
 }
