@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import apartment from './image/apart_img.png';
+import map from './image/street_img.png';
 import star from './image/star.png';
 import calendar from './image/calendar_icon.png';
 import usericon from './image/user_icon.png';
@@ -73,7 +74,9 @@ function App() {
           </div>
           <div className="description-end">Read more</div>
         </div>
-        <div></div>
+        <div className="description-image">
+          <img src={map} className="description-map"></img>
+        </div>
       </div>
     </div>
   );

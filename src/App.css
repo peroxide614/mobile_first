@@ -25,8 +25,8 @@
       color: #757575;
       background: linear-gradient(
         180deg,
-        rgba(117, 117, 117, 1) 85%,
-        rgba(117, 117, 117, 0.3) 95%,
+        rgba(117, 117, 117, 1) 98%,
+        rgba(117, 117, 117, 0.3) 99%,
         rgba(117, 117, 117, 0) 100%
       );
       -webkit-background-clip: text;
@@ -46,8 +46,11 @@
   }
 
   .description-end {
+    margin-bottom: 15px;
+    line-height: 14px;
     font-size: 14px;
     font-weight: 700;
+    color: #3d99ee;
   }
 }
 
@@ -206,5 +209,17 @@
         }
       }
     }
+  }
+}
+
+.description-image {
+  /* width: 100%; */
+  .description-map {
+    /* display: flex; */
+    /* justify-content: center; */
+    border-radius: 20px;
+    max-width: 100%;
+    min-width: 100vw;
+    height: auto;
   }
 }
