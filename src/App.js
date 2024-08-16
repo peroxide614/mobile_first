@@ -12,7 +12,11 @@ function App() {
         <div>
           <img src={apartment} className="hotel-img"></img>
         </div>
-        <div className="int-ext">Interior | Exterior</div>
+        <div className="int-ext">
+          <button className="int-ext-button test">Interior</button>
+          <div className="int-ext-divider"></div>
+          <button className="int-ext-button">Exterior</button>
+        </div>
       </div>
       <div className="hotel">
         <div className="hotel-row-wrapper">
@@ -53,16 +57,19 @@ function App() {
       <div className="hotel-description">
         <div>
           <div className="description-start">About the Hotel</div>
-          <div className="description-main">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis. Class
-            aptent taciti sociosqu ad litora torquent per conubia nostra, per
-            inceptos himenaeos. Curabitur tempus urna at turpis condimentum
-            lobortis. Ut commodo efficitur neque. Ut diam quam, semper iaculis
-            condimentum ac, vestibulum eu nisl. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Nunc vulputate libero et velit
-            interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad
-            litora torquent per conubia nostra
+          <div className="description-container">
+            <div className="description-main">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              vulputate libero et velit interdum, ac aliquet odio mattis. Class
+              aptent taciti sociosqu ad litora torquent per conubia nostra, per
+              inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+              lobortis. Ut commodo efficitur neque. Ut diam quam, semper iaculis
+              condimentum ac, vestibulum eu nisl. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Nunc vulputate libero et velit
+              interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad
+              litora torquent per conubia nostra
+            </div>
+            <div className="text-fade"></div>
           </div>
           <div className="description-end">Read more</div>
         </div>
