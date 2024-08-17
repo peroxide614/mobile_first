@@ -89,8 +89,7 @@
   }
 
   .hotel-img {
-    max-width: 100%;
-    min-width: 100vw;
+    width: 100vw;
     height: auto;
   }
 }
@@ -198,13 +197,13 @@
 
       .wrapper-of-text {
         .text-inside-box {
-          font-size: 11px;
+          font-size: 10px;
           width: 100%;
         }
 
         .text-inside-box-two {
           color: #3d99ee;
-          font-size: 11px;
+          font-size: 10px;
           width: 100%;
         }
       }
@@ -213,13 +212,26 @@
 }
 
 .description-image {
-  /* width: 100%; */
+  position: relative;
+
   .description-map {
     /* display: flex; */
     /* justify-content: center; */
     border-radius: 20px;
-    max-width: 100%;
-    min-width: 100vw;
+    width: 100%;
     height: auto;
+  }
+  .gradient-button {
+    position: absolute;
+    width: calc(100% - 40px);
+    left: 50%;
+    bottom: 8px;
+    transform: translate(-50%, -8%);
+    /* background-color: #4caf50; Колір кнопки */
+    background: linear-gradient(90deg, #5435ff 0%, #36c8f6 58%, #a0fbcd 100%);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 8px;
   }
 }

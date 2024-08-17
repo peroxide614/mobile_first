@@ -76,6 +76,7 @@ function App() {
         </div>
         <div className="description-image">
           <img src={map} className="description-map"></img>
+          <button className="gradient-button">Book Hotel</button>
         </div>
       </div>
     </div>
