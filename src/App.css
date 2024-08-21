@@ -56,12 +56,19 @@
 
 .buttons-bottom {
   display: flex;
-  padding: 12px 18px;
-  gap: 25px;
+  padding: 12px 40px;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* gap: 25px; */
 
   .footer-button {
     display: flex;
+    align-items: center;
     flex-direction: column;
+    gap: 5px;
 
     .button-icon {
       width: 20px;
