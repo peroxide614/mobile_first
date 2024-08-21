@@ -6,6 +6,11 @@ import star from './image/star.png';
 import calendar from './image/calendar_icon.png';
 import usericon from './image/user_icon.png';
 
+import homeicon from './image/house_icon.svg';
+import bookedicon from './image/booked_icon.svg';
+import savedicon from './image/liked_icon.png';
+import profileicon from './image/profile_icon.svg';
+
 function App() {
   return (
     <div className="full-page">
@@ -79,6 +84,24 @@ function App() {
           <button className="gradient-button">Book Hotel</button>
         </div>
       </div>
+      <footer className="buttons-bottom">
+        <div className="footer-button">
+          <img className="button-icon" src={homeicon}></img>
+          <div className="button-place">Home</div>
+        </div>
+        <div className="footer-button">
+          <img className="button-icon" src={bookedicon}></img>
+          <div className="button-place">Booked</div>
+        </div>
+        <div className="footer-button">
+          <img className="button-icon" src={savedicon}></img>
+          <div className="button-place">Saved</div>
+        </div>
+        <div className="footer-button">
+          <img className="button-icon" src={profileicon}></img>
+          <div className="button-place">Profile</div>
+        </div>
+      </footer>
     </div>
   );
 }
